@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code,
+.home-heading {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.image-height-683 {
+  height: 683px;
+}
+
+.d-flex {
+  gap: 4rem;
+}
+
+.home-heading {
+  padding: 10px;
+}
+
+.card-text {
+  text-align: left;
+  text-justify: inter-word;
+}
+
+.card-image {
+  width: 626px;
+  height: 300px;
+}
+
+.link-text {
+  color: white;
+  text-decoration: none;
+}
+
+.image-class {
+  padding: 2rem;
+  width: 100%;
+  height: 500px;
+}
+
+.book-donation-drive {
+  height: 1420px;
+}
+
+.book-donation-drive-p1 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.book-donation-drive-p2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  text-align: justify;
+  /* height: 200px; */
+  background-color: white;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+/* .book-donation-image-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 200px;
+} */
+
+.book-donation-image-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  padding-top: 1rem;
+}
+
+.book-donation-image-flex > img {
+  width: 350px;
+  height: 300px;
+  margin: 0 1rem;
+}
+
+.book-donation-drive-content {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  list-style-position: inside;
+}
+
+.carousel {
+  padding-bottom: 20px;
+}
+
+.about-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  text-align: justify;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* .sponsors {
+  display: flex;
+  padding-left: 2rem;
+  height: 100px;
+  width: 80px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+
+.sponsors img {
+  flex: 0 0 auto;
+} */
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sponsors img {
+  max-width: 100%;
+  height: 100px;
+  width: 180px;
+}
+
+.sponsors img:first-child {
+  padding: 2rem;
+}
+
+.contact {
+  /* background-image: url("/images/facebook-logo.jpg"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5;
+  background-position: center center;
+}
